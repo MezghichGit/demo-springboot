@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM openjdk:11
 COPY ./target/ams.jar /usr/app/
 WORKDIR /usr/app
 EXPOSE 8080
